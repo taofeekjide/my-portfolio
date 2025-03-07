@@ -1,0 +1,109 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem !important;
+  }
+  #profile,
+  .section-container {
+    display: block !important;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content !important;
+  }
+  section {
+    margin: 0 5% !important;
+  }
+  .section-pic-container {
+    width: 275px !important;
+    height: 275px !important;
+    margin: 0 auto 2rem !important;
+  }
+  .about-containers {
+    margin-top: 0 !important;
+  }
+  .about-pic{
+    object-fit: cover;
+    object-position: top;
+    height: 300px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact,
+  footer {
+    height: 40vh !important;
+  }
+  #profile {
+    height: 83vh !important;
+    margin-bottom: 0 !important;
+  }
+  article {
+    font-size: 1rem !important;
+  }
+  footer nav {
+    height: fit-content !important;
+    margin-bottom: 2rem !important;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap !important;
+  }
+  .contact-info-container {
+    margin: 0 !important;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem !important;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem !important;
+  }
+  .logo {
+    font-size: 1.5rem !important;
+  }
+  .nav-links {
+    flex-direction: column !important;
+    gap: 0.5rem !important;
+    text-align: center !important;
+  }
+  .section-pic-container {
+    width: auto !important;
+    height: 40vh !important;
+    justify-content: center !important;
+  }
+  .section-text-p2 {
+    font-size: 1.25rem !important;
+  }
+  .title{
+    font-size: 2rem !important;
+  }
+  .text-container{
+    text-align: justify !important;
+  }
+  .about-pic{
+    object-fit: cover;
+    object-position: top;
+    height: 290px !important;
+  }
+}
